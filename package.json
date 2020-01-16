@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/escaladesports/gatsby-plugin-snipcart.git"
+    "url": "git+ssh://git@github.com/expansionjstech/gatsby-plugin-snipcart.git"
   },
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "scripts": {
@@ -38,5 +38,6 @@
       "example/.cache",
       "example/public"
     ]
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
